@@ -20,7 +20,7 @@
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
 
-<link rel="shortcut icon" href="favicon.png" />
+<link rel="shortcut icon" href="https://melstv.github.io/favicon.png" />
 <link rel="canonical" href="http://melstv.online" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons|Poppins" />
@@ -185,19 +185,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 	
 <script>
-// MATERIALIZE FRAMEWORK - https://materializecss.com
-$(document).ready(function(){
-	//FORM SELECT
-	$('select').formSelect(); // https://materializecss.com/select.html
-	// MODAL
-	$('.modal').modal();
-  // TABS
-    $('.tabs').tabs();
-  });
-  // SCROLLSPY
-  $('.scrollspy').scrollSpy();
-});
-
 // LazySizes
 window.lazySizesConfig = window.lazySizesConfig || {};
 window.lazySizesConfig.expand;
@@ -397,20 +384,53 @@ $(function(){
 -->
 
 
-<div id="modal_exchanges_btc"></div>
-<div id="modal_exchanges_pivx"></div>
-<div id="modal_ticker"></div>
-<div id="modal_calculator"></div>
+
+
+<div id="BTC-modal" class="modal">
+<div class="modal-content">	
+<div class="row">
+<div class="col s12 m12">
+<div id="appone" data-proportion-w="2" class="card large">
+<div class="tradingview-widget-container">
+<div id="tradingview_btc">
+</div>
+<script>
+  new TradingView.widget(
+  {
+  "width": 980,
+  "height": 500,
+  "symbol": "COINBASE:BTCUSD",
+  "interval": "5",
+  "timezone": "Etc/UTC",
+  "theme": "Dark",
+  "style": "1",
+  "locale": "en",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "allow_symbol_change": true,
+  "container_id": "tradingview_btc"
+}
+  );
+</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<a href="#!" class="modal-action modal-close waves-effect waves-red btn red lighten-1">Close</a>
+</div>
+</div>
+
+
+
+
+
+
 
 <script src="https://melstv.github.io/assets/path/section/_section_navbar.js"></script>
-<script src="https://melstv.github.io/assets/path/section/_section_wraper_menu.js"></script>
-<script src="https://melstv.github.io/assets/path/faucet/_list.js"></script>
-<script src="https://melstv.github.io/assets/path/modal/_modal_exchanges.js"></script>
-<script src="https://melstv.github.io/assets/path/modal/_modal_ticker_calculator.js"></script>
-
 
 <script src="https://s3.tradingview.com/tv.js"></script>
-
 <script src="https://melstv.github.io/assets/js/hide.js"></script>
 <script src="https://melstv.github.io/assets/js/currentpricebtc.js"></script>
 <script src="https://melstv.github.io/assets/js/init.js"></script>
@@ -418,7 +438,7 @@ $(function(){
 <script src="https://melstv.github.io/assets/js/tippy.js"></script>
 <script src="https://melstv.github.io/assets/js/materialize.min.js"></script>
 <script src="https://melstv.github.io/assets/js/codigo.min.js"></script>
-
+<script src="https://melstv.github.io/assets/js/datatable.js"></script>
 
 
 
