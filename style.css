@@ -1,0 +1,476 @@
+@import "../fonticon/icofont/icofont.min.css";
+@import "../fonticon/icocrypto/font.css";
+@import "../fonticon/icocrypto/styles.css";
+@import "../fonticon/coins/coins.css";
+@import "custom.css";
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap&subset=cyrillic');
+
+/* 
+@import "dark.css";
+@import "white.css";
+*/
+@import "dark.css";
+@import "datatable.css";
+
+.fixedsize  {
+
+  width: 400px;
+  height: 300px;
+			}
+
+
+
+
+/*----------------------- Скрытие бара ------------------------------ */
+.bar {
+  display: none;
+}
+.none{display:none}
+
+
+
+/*----------------------- Шрифты ------------------------------ */
+@font-face {
+  font-family: "PressStart2P";
+  src: url("../font/PressStart2P.ttf"); }
+
+      .PressStart2P {
+        font-family: PressStart2P; 
+		font-style: italic; 
+        font-size: 48px;
+      }
+
+      .PressStart2P {
+        font-family: PressStart2P; 
+
+      }
+
+
+
+@font-face{
+
+font-family: theboldfont;
+src: url(../font/theboldfont.ttf);
+
+
+font-weight: normal;
+
+font-style: normal;
+}	
+	
+	
+      .theboldfont {
+        font-family: theboldfont; 
+		font-style: italic; 
+        font-size: 48px;
+      }
+
+      .theboldfonts {
+        font-family: theboldfont; 
+
+      }
+	  	  
+
+      .Press12 {
+        font-family: theboldfont; 
+		font-style: italic; 
+        font-size: 12px;
+      }
+
+      .Press14 {
+        font-family: theboldfont; 
+		font-style: italic; 
+        font-size: 14px;
+      }
+
+      .Press14normal {
+        font-family: theboldfont; 
+		font-style: normal; 
+        font-size: 14px;
+      }
+	  
+
+
+
+.img16 {
+  height: 16px;
+  width: 16px;
+  
+}
+
+.mid {
+
+  vertical-align:middle;
+  
+}
+
+ .ts {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-shadow: 
+		-0   -3px 6px #e65100,
+		 0   -3px 6px #e65100,
+		-0    3px 6px #e65100,
+		 0    3px 6px #e65100,
+		-3px -0   6px #e65100,
+		 3px -0   6px #e65100,
+		-3px  0   6px #e65100,
+		 3px  0   6px #e65100,
+		-1px -3px 6px #e65100,
+		 1px -3px 6px #e65100,
+		-1px  3px 6px #e65100,
+		 1px  3px 6px #e65100,
+		-3px -1px 6px #e65100,
+		 3px -1px 6px #e65100,
+		-3px  1px 6px #e65100,
+		 3px  1px 6px #e65100,
+		-2px -3px 6px #e65100,
+		 2px -3px 6px #e65100,
+		-2px  3px 6px #e65100,
+		 2px  3px 6px #e65100,
+		-3px -2px 6px #e65100,
+		 3px -2px 6px #e65100,
+		-3px  2px 6px #e65100,
+		 3px  2px 6px #e65100,
+		-3px -3px 6px #e65100,
+		 3px -3px 6px #e65100,
+		-3px  3px 6px #e65100,
+		 3px  3px 6px #e65100,
+		-3px -3px 6px #e65100,
+		 3px -3px 6px #e65100,
+		-3px  3px 6px #e65100,
+		 3px  3px 6px #e65100;
+} 
+
+.lists {
+  display: inline-block;	
+  float:left; 
+  width: 140px; 
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+/*----------------------- Иконки в топ меню ------------------------------ */	  
+	  
+	.hover-effect{box-shadow:0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);transition:all .3s cubic-bezier(.25,.8,.25,1)}
+	.hover-effect:hover,.hover-always{box-shadow:0 10px 20px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.22)}	
+	.coin-logo{height:32px}
+	.coin-logo{width:32px}
+	
+.coin-logo-bottom {	
+-webkit-tap-highlight-color: transparent;
+--blue: #007bff;
+--indigo: #6610f2;
+--purple: #6f42c1;
+--pink: #e83e8c;
+--red: #dc3545;
+--orange: #fd7e14;
+--yellow: #ffc107;
+--green: #28a745;
+--teal: #20c997;
+--cyan: #17a2b8;
+--white: #fff;
+--gray: #6c757d;
+--gray-dark: #343a40;
+--primary: #007bff;
+--secondary: #6c757d;
+--success: #28a745;
+--info: #17a2b8;
+--warning: #ffc107;
+--danger: #dc3545;
+--light: #f8f9fa;
+--dark: #343a40;
+--breakpoint-xs: 0;
+--breakpoint-sm: 576px;
+--breakpoint-md: 768px;
+--breakpoint-lg: 992px;
+--breakpoint-xl: 1200px;
+line-height: 1.5;
+font-weight: 600!important;
+text-align: center!important;
+color: #007bff;
+box-sizing: border-box;
+vertical-align: middle;
+padding: .25rem;
+border-radius: .25rem;
+max-width: 100%;
+background-color: #2e3a40!important;
+border: 0!important;
+margin-bottom: .25rem!important;
+height: 32px;
+width: 32px;
+box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
+transition: all .3s cubic-bezier(.25,.8,.25,1);
+
+	
+	
+}	
+	
+	
+.coin-logo-top {	
+-webkit-tap-highlight-color: transparent;
+--blue: #007bff;
+--indigo: #6610f2;
+--purple: #6f42c1;
+--pink: #e83e8c;
+--red: #dc3545;
+--orange: #fd7e14;
+--yellow: #ffc107;
+--green: #28a745;
+--teal: #20c997;
+--cyan: #17a2b8;
+--white: #fff;
+--gray: #6c757d;
+--gray-dark: #343a40;
+--primary: #007bff;
+--secondary: #6c757d;
+--success: #28a745;
+--info: #17a2b8;
+--warning: #ffc107;
+--danger: #dc3545;
+--light: #f8f9fa;
+--dark: #343a40;
+--breakpoint-xs: 0;
+--breakpoint-sm: 576px;
+--breakpoint-md: 768px;
+--breakpoint-lg: 992px;
+--breakpoint-xl: 1200px;
+line-height: 1.5;
+font-weight: 600!important;
+text-align: center!important;
+color: #007bff;
+box-sizing: border-box;
+vertical-align: middle;
+padding: .25rem;
+border-radius: .25rem;
+max-width: 100%;
+background-color: #2e3a40!important;
+border: 0!important;
+margin-bottom: .25rem!important;
+height: 52px;
+width: 52px;
+box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
+transition: all .3s cubic-bezier(.25,.8,.25,1);
+	
+	
+	
+}	
+	
+	
+
+
+
+
+/*----------------------- Иконки в топ меню ------------------------------ */
+.calc {
+  left: 0;
+  right: 0;
+  background-color: #fafafa;
+  padding: 0;
+  height: 450px;
+  width: 300px;
+  will-change: top, opacity;
+}
+
+.newcard {
+  left: 0;
+  right: 0;
+  background-color: #fafafa;
+  padding: 0;
+  height: 310px;
+  width: 300px;
+  will-change: top, opacity;
+}
+
+
+/*
+ *  Скроллбар
+ */
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 0px;
+	background-color: #ffffff;
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 0px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #263238;
+}
+
+
+
+
+/*-----------------------  ------------------------------ */	
+
+
+
+/*----------------------- банер ------------------------------ */	
+
+
+
+
+
+.announcement-banner{
+  
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6e8299+0,424a96+100 */
+background: #263238; /* Old browsers */
+background: -moz-linear-gradient(left,  #455a64 0%, #263238 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #455a64 0%,#263238 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #455a64 0%,#263238 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6e8299', endColorstr='#424a96',GradientType=1 ); /* IE6-9 */
+
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.announcement-banner-white{
+  
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6e8299+0,424a96+100 */
+background: #eceff1; /* Old browsers */
+background: -moz-linear-gradient(left,  #eceff1 0%, #cfd8dc 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #eceff1 0%,#cfd8dc 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #eceff1 0%,#cfd8dc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6e8299', endColorstr='#424a96',GradientType=1 ); /* IE6-9 */
+
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.announcement-banner-close{
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.announcement-banner-title{
+  font-size: 30px;
+  width: 90%;
+  margin: 10px auto 15px;
+}
+
+.announcement-banner-content{
+  font-size: 18px;
+  width: 70%;
+  margin: 10px auto;
+}
+
+@media (max-width: 720px) {
+  .announcement-banner-title{
+    font-size: 20px;
+    width: 90%;
+    margin: 10px auto 15px;
+  }
+
+  .announcement-banner-content{
+    font-size: 11px;
+    width: 70%;
+    margin: 10px auto;
+  }
+}
+
+
+/*----------------------- Сайд бар темный ------------------------------ */	
+
+.sidenav.dark {
+  background-color: #263238;
+  color: rgba(255, 255, 255, 0.5);
+}
+.sidenav.dark .subheader {
+  color: rgba(255, 255, 255, 0.5);
+}
+.sidenav.dark .divider {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.sidenav.dark li a {
+  color: rgba(255, 255, 255, 0.5);
+}
+.sidenav.dark li a i.material-icons {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.dark {
+  background-color: #263238;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.dark li a {
+  color: rgba(255, 255, 255, 0.5);
+}
+.dark li a i.material-icons {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/*----------------------- Сайд бар темный ------------------------------ */	
+.navatar .brand-logo {
+
+  margin-right: 12px;
+}
+.navatar #avatar {
+  height: inherit;
+}
+.navatar #avatar > li, .navatar #avatar a {
+  height: inherit;
+}
+.navatar #avatar > li img, .navatar #avatar a img {
+  height: 100%;
+  padding: 8px;
+}
+
+/*----------------------- Tab menu бар темный ------------------------------ */	
+.tabs .tab a {
+  color: #ff3d00;
+}
+.tabs .tab a.active {
+  color: #ff3d00;
+}
+.tabs .tab a:hover {
+  color: #ff3d00;
+}
+.tabs .tab a:focus {
+  background-color: rgba(244, 81, 30, 0.2);
+}
+.tabs .tab a:focus.active {
+  background-color: rgba(244, 81, 30, 0.2);
+}
+.tabs .indicator {
+  background-color: #e65100;
+}
+
+
+
+
+
+
+
+
+
+
+
