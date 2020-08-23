@@ -1,0 +1,115 @@
+@import "prism.css";
+
+
+
+/*----------------------- Блок карточки кода ------------------------------ */	
+.card-code {
+		font-size: 12px;
+
+
+		
+
+}
+code, pre {
+	font-family: Consolas, Monaco, 'Andale Mono', 'Lucida Console', monospace;
+	hyphens: none;
+}
+
+pre {
+	max-height: 60em;
+	overflow: auto;
+}
+
+pre > code.highlight {
+	outline: .4em solid red;
+	outline-offset: .4em;
+}
+
+
+
+
+/*----------------------- Блок breadcrumb ------------------------------ */	
+  
+
+
+
+/*----------------------- Блок breadcrumb 2 ------------------------------ */	
+
+
+.breadcrumbblog {
+    color: #ff5722;
+	  font-weight: bold;
+	  font-size: small;
+}
+
+.breadcrumbblog i.material-icons {
+  display: inline-block;
+  float: left;
+  font-size: 22px;
+}
+
+.breadcrumbblog:before {
+  content: '\E5CC';
+  color: #ff5722;
+  vertical-align: top;
+  display: inline-block;
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  margin: 1px 0px 2px 0px;
+  -webkit-font-smoothing: antialiased;
+
+}
+
+.breadcrumbblog:first-child:before {
+  display: none;
+}
+
+.breadcrumbblog:last-child {
+  color: #ff5722;
+  font-weight: normal;
+	  font-size: small;
+}
+
+
+.nav-wrapperblog {
+
+  height: 20px;
+
+}
+
+.nav-wrapperpage {
+
+  height: 20px;
+  padding-top: 10px;
+}
+
+
+
+.card-content span  {
+
+				font-weight: bold;
+				font-size: 0.9em;
+			}
+
+.card-content text  {
+
+				font-size: 0.9em;
+			}
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

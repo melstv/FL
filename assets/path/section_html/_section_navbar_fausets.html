@@ -1,0 +1,83 @@
+<div id="section_navbar">
+<div class="navbar-fixed">
+<nav>
+<div class="nav-wrapper pocopadding blue-grey darken-4">				
+<a href="#" data-target="slide-out" class="sidenav-trigger show-on-large hide-on-med-and-down"><i class="material-icons">menu</i></a>
+<a href="index.html" class="brand-logo bold italic ">FAUCETS<span class="naranja">LIST</span> </a>
+<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+<ul class="right hide-on-med-and-down">
+<li><a class="waves-effect" href="rotator.html"><i class="material-icons">skip_previous</i></a></li>
+<li><a class="waves-effect" href="rotator.html"><i class="material-icons">skip_next</i></a></li>
+<li><a class="waves-effect" id="hide_section_wraper_menu4"><i class="material-icons">eject</i></a></li>
+<li><a class="waves-effect" href="#" onclick="window.location.reload();"><i class="material-icons">cached</i></a></li>
+<li><a class="waves-effect" href="list.html" onclick="prev()"><i class="material-icons">fast_rewind</i></a></li>
+<li><a class="waves-effect" href="faucets.html"><i class="material-icons">play_arrow</i></a></li>
+<li><a class="waves-effect" href="list.html"><i class="material-icons">fast_forward</i></a></li>
+<li><a class="waves-effect" id="hide_section_nav2"><i class="material-icons">view_headline</i></a></li>
+<li><a class="waves-effect modal-trigger bold btcnav" href="#BTC-modal"> BTC <span id="BTC"></span></a></li>
+</ul>
+</div>
+</nav>
+</div>
+
+<div class="navbar-fixed" id="section_nav2" style="display: none">
+<nav>
+<div class="nav-wrapper pocopadding blue-grey darken-4">				
+
+<ul class="right ocultar-xs">
+
+<li><a class="waves-effect" id="hide_section_wraper_menu1"><i class="material-icons">looks_one</i></a></li>
+<li><a class="waves-effect" id="hide_section_wraper_menu2"><i class="material-icons">looks_two</i></a></li>
+<li><a class="waves-effect" id="hide_section_wraper_menu3"><i class="material-icons">looks_3</i></a></li>
+
+<li><a class="waves-effect modal-trigger" href="#calculator"><i class="material-icons icofont-calculator-alt-2 icofont-1x"></i></a></li>
+<li><a class="dark-toggle" href="#" onclick="localStorage.setItem(&#039;mode&#039;, (localStorage.getItem(&#039;mode&#039;) || &#039;dark&#039;) === &#039;dark&#039; ? &#039;light&#039; : &#039;dark&#039;); localStorage.getItem(&#039;mode&#039;) === &#039;dark&#039; ? document.querySelector(&#039;body&#039;).classList.add(&#039;dark&#039;) : document.querySelector(&#039;body&#039;).classList.remove(&#039;dark&#039;)" title="Dark/light"><i class="material-icons">brightness_4</i></a></li>
+
+
+
+</ul>
+</div>
+</nav>
+</div>
+
+
+
+<ul class="sidenav dark" id="mobile-demo"><li><a class="subheader theboldfont">Top Faucets</a></li>
+<li><a class="waves-effect" href="faucets.html"><i class="material-icons">double_arrow</i> Faucets</a></li>
+<li><a class="waves-effect" href="list.html"><i class="material-icons">double_arrow</i> List</a></li>
+<li><a class="waves-effect" href="rotator.html"><i class="material-icons">double_arrow</i> Rotator</a></li>
+<li><a class="waves-effect" href="review.html"><i class="material-icons">double_arrow</i> Review</a></li>
+</ul> 
+ 
+<ul id="slide-out" class="sidenav dark fixed">
+<li><a class="subheader theboldfont">Menu</a></li>
+<ul class="collapsible collapsible-accordion">
+
+          <li>
+            <a class="collapsible-header">Top Faucets<i class="material-icons">play_arrow</i></a>
+            <div class="collapsible-body">
+              <ul class="dark">
+<li><a class="waves-effect" href="faucets.html"><i class="material-icons">double_arrow</i> Faucets</a></li>
+<li><a class="waves-effect" href="list.html"><i class="material-icons">double_arrow</i> List</a></li>
+<li><a class="waves-effect" href="rotator.html"><i class="material-icons">double_arrow</i> Rotator</a></li>
+<li><a class="waves-effect" href="review.html"><i class="material-icons">double_arrow</i> Review</a></li>
+
+              </ul>
+            </div>
+          </li>
+		  
+	  
+  
+          <li>
+            <a class="collapsible-header dark-toggle" href="#" onclick="localStorage.setItem(&#039;mode&#039;, (localStorage.getItem(&#039;mode&#039;) || &#039;dark&#039;) === &#039;dark&#039; ? &#039;light&#039; : &#039;dark&#039;); localStorage.getItem(&#039;mode&#039;) === &#039;dark&#039; ? document.querySelector(&#039;body&#039;).classList.add(&#039;dark&#039;) : document.querySelector(&#039;body&#039;).classList.remove(&#039;dark&#039;)" title="Dark/light">DARK MODE<i class="material-icons">brightness_4</i></a>
+
+          </li>		  
+  
+		  	  
+		  
+        </ul>
+
+	  
+</ul>
+
+</div>

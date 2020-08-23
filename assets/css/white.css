@@ -1,0 +1,13 @@
+.orange-text.text-darken-4 {
+  color: #e65100 !important;
+}
+
+td .btn{background-color:#ff5722}
+td .btn:hover,td .btn:focus{background-color:#e64a19}
+
+.tabs .tab a {color: #ff3d00;}
+.tabs .tab a.active {color: #ff3d00;}
+.tabs .tab a:hover {color: #ff3d00;}
+.tabs .tab a:focus {background-color: rgba(244, 81, 30, 0.2);}
+.tabs .tab a:focus.active {background-color: rgba(244, 81, 30, 0.2);}
+.tabs .indicator {background-color: #e65100;}
