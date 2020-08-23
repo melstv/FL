@@ -166,7 +166,6 @@ document.addEventListener("DOMContentLoaded", function() {
 <ul class="right hide-on-med-and-down">
 <li><a class="waves-effect" href="video.html">Фильмы в переводе Гоблина</a></li>
 <li><a class="waves-effect" href="video.html">Сериалы</a></li>
-<li><a class="waves-effect modal-trigger bold btcnav" href="#BTC-modal"> BTC <span id="BTC"></span></a></li>
 </ul>
 
 
@@ -382,46 +381,6 @@ $(function(){
 <!-- 
 <script src="./assets/path/_footer.js"></script>
 -->
-
-
-
-
-<div id="BTC-modal" class="modal">
-<div class="modal-content">	
-<div class="row">
-<div class="col s12 m12">
-<div id="appone" data-proportion-w="2" class="card large">
-<div class="tradingview-widget-container">
-<div id="tradingview_btc">
-</div>
-<script>
-  new TradingView.widget(
-  {
-  "width": 980,
-  "height": 500,
-  "symbol": "COINBASE:BTCUSD",
-  "interval": "5",
-  "timezone": "Etc/UTC",
-  "theme": "Dark",
-  "style": "1",
-  "locale": "en",
-  "toolbar_bg": "#f1f3f6",
-  "enable_publishing": false,
-  "allow_symbol_change": true,
-  "container_id": "tradingview_btc"
-}
-  );
-</script>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="modal-footer">
-<a href="#!" class="modal-action modal-close waves-effect waves-red btn red lighten-1">Close</a>
-</div>
-</div>
-
 
 
 
