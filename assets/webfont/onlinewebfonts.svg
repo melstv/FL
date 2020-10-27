@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+Copyright (c) 2016, onlinewebfonts.Com
+-->
+<svg>
+<metadata>
+Created by FontForge 20120731 at Wed Sep 23 14:55:24 2020
+ By www
+Copyright (c) 2016, onlinewebfonts.Com
+</metadata>
+<defs>
+<font id="onlinewebfonts" horiz-adv-x="1000" >
+  <font-face 
+    font-family="onlinewebfonts"
+    font-weight="400"
+    font-stretch="normal"
+    units-per-em="1000"
+    panose-1="2 0 5 9 0 0 0 0 0 0"
+    ascent="800"
+    descent="-200"
+    bbox="132.5 -190.1 867.6 790"
+    underline-thickness="50"
+    underline-position="-100"
+    unicode-range="U+E010-E010"
+  />
+    <missing-glyph />
+    <glyph glyph-name="uniE010" unicode="&#xe010;" 
+d="M785.8 790c45.1006 0 81.7002 -36.5996 81.7998 -81.7002v-816.7c0 -45.0996 -36.5996 -81.6992 -81.6992 -81.6992h-571.7c-45.1006 0 -81.7002 36.5996 -81.7002 81.6992v816.7c0 45.1006 36.5996 81.7002 81.7002 81.7002h571.6zM377.5 -67.5v122.5h-122.5v-122.5
+h122.5zM377.5 116.2v122.5h-122.5v-122.5h122.5zM377.5 300v122.5h-122.5v-122.5h122.5zM561.3 -67.5h-0.0996094v122.5h-122.5v-122.5h122.6zM561.3 116.2h-0.0996094v122.5h-122.5v-122.5h122.6zM561.3 300h-0.0996094v122.5h-122.5v-122.5h122.6zM745 -67.5v306.2h-122.5
+v-306.2h122.5zM745 300v122.5h-122.5v-122.5h122.5zM745 524.6v122.5h-490v-122.5h490z" />
+  </font>
+</defs></svg>

@@ -11,3 +11,9 @@ td .btn:hover,td .btn:focus{background-color:#e64a19}
 .tabs .tab a:focus {background-color: rgba(244, 81, 30, 0.2);}
 .tabs .tab a:focus.active {background-color: rgba(244, 81, 30, 0.2);}
 .tabs .indicator {background-color: #e65100;}
+
+
+
+nav {
+  background-color: #131722;
+}

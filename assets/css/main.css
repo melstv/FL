@@ -7,7 +7,23 @@ html{font-size:16px}*:focus{outline:none!important}
 .publicidad{margin-top:3.75rem}
 .nomargen{margin:0}
 .pocomargen{margin-top:3.75rem}
-.pocopadding{padding-right:10%;padding-left:10%}h1{color:#fff;font-size:3.75rem;margin:0}
+
+
+#midpadding{padding-left: 300px; padding-right: 300px;}
+@media only screen and (max-width : 992px) {
+  #midpadding {
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width : 1900px) {
+  #midpadding {
+	padding-right: 0px;
+  }
+}
+
+
+
+.pocopadding{padding-right:5%;padding-left:5%}h1{color:#fff;font-size:3.75rem;margin:0}
 @media(max-width:767px){h1{font-size:3rem}}
 @media(max-width:575px){h1{font-size:2.75rem}}h2{color:#ff5722;font-size:3rem;margin-top:3.75rem;margin-bottom:0;padding-bottom:1rem}
 @media(max-width:767px){h2{font-size:2.75rem}}

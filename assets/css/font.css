@@ -1,0 +1,88 @@
+@import "../icocrypto/font.css";
+@import "../icocrypto/styles.css";
+	  
+/*----------------------- PressStart2P ------------------------------ */
+@font-face {
+  font-family: "PressStart2P";
+  src: url("../font/PressStart2P.ttf"); }
+
+      .PressStart2P {
+        font-family: PressStart2P; 
+		font-style: italic; 
+        font-size: 48px;
+      }
+
+      .PressStart2P {
+        font-family: PressStart2P; 
+
+      }
+
+/*----------------------- theboldfont ------------------------------ */
+
+@font-face{
+
+font-family: theboldfont;
+src: url(../font/theboldfont.ttf);
+
+
+font-weight: normal;
+
+font-style: normal;
+}	
+
+      .theboldfont {
+        font-family: theboldfont; 
+		font-style: italic; 
+        font-size: 48px;
+      }
+
+      .theboldfonts {
+        font-family: theboldfont; 
+
+      }
+	  	  
+
+      .Press12 {
+        font-family: theboldfont; 
+		font-style: italic; 
+        font-size: 12px;
+      }
+
+      .Press14 {
+        font-family: theboldfont; 
+		font-style: italic; 
+        font-size: 14px;
+      }
+
+      .Press14normal {
+        font-family: theboldfont; 
+		font-style: normal; 
+        font-size: 14px;
+      }
+	  
+	  
+/*----------------------- eurofighterhalfital ------------------------------ */
+
+@font-face{
+
+font-family: eurofighter;
+src: url(../font/eurofighter.ttf);
+
+
+font-weight: normal;
+
+font-style: normal;
+}	
+
+      .eurofighter-logo {
+        font-family: eurofighter; 
+		font-style: normal; 
+        font-size: 30px;
+      }
+  	  
+
+  
+	  
+	  
+	  
+	  

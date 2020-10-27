@@ -1,8 +1,12 @@
 var s=[
-"./f/coinpot.html",
-"./f/coinfaucet.html",
-"./f/freefaucet.html",
-"./f/multifaucet.html",
+"./chart/_price.html",
+"./faucet/_list_coinpot.html",
+"./faucet/_list_coinfaucet.html",
+"./faucet/_list_ptc.html",
+"./faucet/_list_direct.html",
+"./faucet/_list_multi.html",
+"./faucet/_list_game.html",
+"./faucet/_list_faucetpay.html",
 ];
 var adr,i,x=0,c=s.length;
 function address() {
@@ -39,9 +43,9 @@ while (i!=x) {
 changeSrc();
 }
 function newTab() {
-var win=window.open(document.getElementById("fm").src, '_blank');
+var win=window.open(document.getElementById("ifrm").src, '_blank');
 win.focus();
 }
 function changeSrc() {
-document.getElementById("fm").src=s[x];
+document.getElementById("ifrm").src=s[x];
 }
